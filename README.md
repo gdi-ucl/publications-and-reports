@@ -1,54 +1,30 @@
-![GDI Hub — Innovate Now](assets/banner.svg)
+![GDI publications and reports](assets/banner.svg)
 
-# Innovate Now: Lessons from Africa’s First Assistive Technology Accelerator
+# Publications and reports
 
-**[Read on the GDI website](https://www.disabilityinnovation.com/publications/innovate-now-lessons) · [Open the report PDF](https://cdn.disabilityinnovation.com/uploads/images/GDI-Hub-Innovation-Now-Final.pdf?v=1793082686) · [Browse GDI publications](https://github.com/gdi-ucl/gdi-hub/blob/main/PUBLICATIONS.md)**
+Find published GDI outputs here. Each populated publication has its own folder and shareable page.
 
-A publication companion and completed example of the GDI repository format. The full report is hosted by GDI; this page provides a short summary and source links.
+**[All 77 publication links](PUBLICATIONS.md) · [GDI website](https://www.disabilityinnovation.com/publications) · [How to add a publication](ADD-A-PUBLICATION.md) · [Back to start here](https://github.com/gdi-ucl/start-here)**
 
-## At a glance
+## Publication folders
 
-| Detail | Information |
-| --- | --- |
-| Type | Report |
-| Organisation credited on the GDI page | Global Disability Innovation Hub |
-| Programme partnership | GDI Hub and Kilimanjaro Blind Trust Africa (KBTA) |
-| Source record | [GDI publication page](https://www.disabilityinnovation.com/publications/innovate-now-lessons) |
-| Repository purpose | Publication overview and reusable example |
-| Source checked | 2 November 2026 |
+| Publication | What you will find | Open |
+| --- | --- | --- |
+| Innovate Now: Lessons from Africa’s First Assistive Technology Accelerator | Summary, source attribution and links to the report | [innovate-now](innovate-now/README.md) |
 
-## What the report covers
+The [full catalogue](PUBLICATIONS.md) lists 77 source records checked on 2 November 2026. Only Innovate Now currently has a populated folder; other entries link to their GDI records.
 
-Innovate Now began in 2019 to support assistive-technology ventures in Africa. The report reflects on more than six years of activity across ten cohorts and eleven countries, involving over eighty ventures. Its experience helped shape GDI Accelerate.
+## Suggested structure
 
-## Main lessons
+```text
+publications-and-reports/
+├── README.md                 Start here and browse publication folders
+├── PUBLICATIONS.md           Complete linked catalogue
+├── ADD-A-PUBLICATION.md      Browser-only instructions
+├── _template/README.md       Copy and fill in for another publication
+└── innovate-now/README.md    Completed example
+```
 
-- Specialist support can help founders develop assistive-technology ventures.
-- The source page reports more than US$3 million in follow-on funding raised by alumni.
-- Venture development also depends on surrounding markets, finance, infrastructure and institutions.
+Use one folder per publication. Use branches only for alternative versions or proposed edits. All folders share this public repository’s visibility; keep unpublished or restricted work in a separate private repository.
 
-This is a short paraphrase of the [GDI publication record](https://www.disabilityinnovation.com/publications/innovate-now-lessons); consult the full report for evidence, context and qualifications.
-
-## Resources
-
-| Resource | Where to find it |
-| --- | --- |
-| Publication record | [Read the GDI page](https://www.disabilityinnovation.com/publications/innovate-now-lessons) |
-| Full report | [Open the GDI-hosted PDF](https://cdn.disabilityinnovation.com/uploads/images/GDI-Hub-Innovation-Now-Final.pdf?v=1793082686) |
-| Other GDI research | [Publication catalogue](https://www.disabilityinnovation.com/publications) |
-
-## Questions
-
-For questions about the report or programme, use [GDI’s contact page](https://www.disabilityinnovation.com/about/contact). Repository Issues can be used to report a broken link or a correction to this companion page; they are not a guaranteed programme-support channel.
-
-## Cite the source
-
-Use the report’s own citation or the publisher’s record for formal referencing. This repository does not infer a publication date, DOI or individual author list from the website’s retrieval date.
-
-## Rights and reuse
-
-The original publication retains its existing rights. This repository links to it and does not redistribute the PDF or grant a new licence over the report. No research dataset or software implementation is included.
-
-## Create a page like this
-
-[Use the GDI template](https://github.com/gdi-ucl/project-template/generate), then replace its prompts with your project’s information. See [how this example maps the website to a repository](SOURCE-MAPPING.md).
+Full reports remain on their original publisher/GDI pages. This repository provides summaries and links, not new licences for the original works.
